@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitPuneMUN2024</title>
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="icon" href="logo.jpg">
+    <style>
+  .cursor {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(240, 240, 239);
+    transform: translate(-80%, -80%);
+    pointer-events: none;
+    transition: transform 0.2s ease-in-out;
+    z-index: 9999; 
+}
+.nav a,
+.block,
+.logo {
+    position: relative;
+    display: inline-block;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a class="img" href="HomePage.html">
+            <img src="imgs/LogoTransparent.png" alt="Logo">
+        </a>
+        <div class="nav">
+         
+            <a class="home no-underline" href="HomePage.html">Home</a>
+            <a class="abt" href="About.html">About Us</a>
+            <a class="commities" href="Committees.html">Committees</a>
+            <a class="register" href="Registration.html">Registration</a>
+            <a class="newsletter" href="NewsLetter.html">News Letter</a>
+            <a class="faq" href="FAQ.html">FAQ</a>
+        </div>
+    </div>
+    
+    
+    <div class="cursor"></div>
+    <div class="o1" id="one">
+        <img class="logo" src="imgs/LogoTransparent.png">
+    </div>
+  
+    <div class="b">
+        <div class="block">
+            <div class="b1-big">Be the Voice</div>
+            <div class="b1">Every change that occurs is backed by an opinion, a thought, and a voice. 
+                A Model United Nations conference provides a platform for bringing out these voices.
+                A Model United Nations conference is an academic simulation of the United Nations where students 
+                play the role of delegates representing different countries and attempt to solve real global issues.
+            </div>
+        </div>
+    </div>
+    
+        
+       
+   
+
+    <div class="o2" id="two"></div>
+
+
+    
+
+
+    <div class="contact">Contact Us</div>
+     <div class="c">
+        <div class="c1">
+            <div class="c11">Address</div>
+            <div class="c12">Vishwakarma Institute of Technology VIT, <br>
+                             Upper Indira Nagar, Bibwewadi, <br>
+                             Pune, Maharashtra 411037
+            </div>
+            <div class="c11">Contacts</div>
+            <div class="c12">Secretary General</div>
+            <div class="c13">Ms. Manasi Bhavik.        </div>
+            <div class="c13">+91 7410113373          </div>
+        </div>
+        <a class="c2" href="HomePage.html">
+             <img src="imgs/trasparentLogo.png" alt="logo">
+        </a>
+        <div class="c3">
+              <div class="c31">Lets Talk</div>
+              <div class="c32">
+                <a href="https://www.linkedin.com/company/vitpunemun/" > <img src="imgs/linkedin_3536505.png"></a>
+                <img src="imgs/facebook.png">
+               <a href="https://www.instagram.com/vitpunemun2024?igsh=OGQ5ZDc2ODk2ZA==" > <img src="imgs/instagram_2111463.png"></a>
+                <a href="https://youtube.com/@vitpunemun1174?si=TT15WclXWqlS3XPN" ><img src="imgs/youtube.png"></a>
+                <a href="https://twitter.com/vitpunemunsoc?lang=en" ><img src="imgs/twitterx.png"></a>
+                
+
+              </div>
+              <div class="c33">
+                <img src="map.jpg">
+              </div>
+        </div>
+     </div>
+
+
+
+
+
+
+
+
+
+
+    
+
+    <script>
+  
+        document.addEventListener("mousemove", function (e) {
+            const cursor = document.querySelector(".cursor");
+            cursor.style.left = e.clientX + "px";
+            cursor.style.top = e.clientY + "px";
+        });
+    </script>
+</body>
+</html>

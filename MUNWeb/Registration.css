@@ -1,0 +1,194 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/* Navigation styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    font-size: 1.4rem;
+    height: 80px;
+    width: 100%;
+    overflow: hidden; /* Hide overflow to prevent the cursor from going beyond the navbar */
+    position: fixed;
+}
+
+.img {
+    height: 5rem;
+    width: 5rem;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    border-radius: 7px;
+}
+
+.img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    padding-left: 220px;
+    flex-grow: 1; /* Allow the navigation items to fill the available space */
+}
+.home:hover{
+    color:aqua;
+}
+.abt:hover{
+    color:aqua;
+}
+.commities:hover{
+    color:aqua;
+}
+.register:hover{
+    color:aqua;
+}
+.newsletter:hover{
+    color:aqua;
+}
+.faq:hover{
+    color:aqua;
+}
+.home{
+    text-decoration: none;
+    color:white;
+}
+.abt{
+    text-decoration: none;
+    color:white;
+}
+.commities{
+    text-decoration: none;
+    color:white;
+}
+.register{
+    text-decoration: none;
+    color:white;
+}
+.newsletter{
+    text-decoration: none;
+    color:white;
+}
+.faq{
+    text-decoration: none;
+    color:white;
+}
+.team{
+    text-decoration: none;
+    color:white;
+}
+.h{
+    height:110rem;
+    width:100%;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+    height: 5rem;
+    width: 100%;
+    background-color: #000000; /* Change to a color that contrasts with your page background */
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.c{
+    height:25rem;
+    display: flex;
+}
+.c1{
+    background-color: black;
+    width:40%;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:7rem;
+    padding-top:1.5rem;
+}
+.c11{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.c12{
+    padding-top:1rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.c2{
+    background-color: rgb(0, 0, 0);
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c2 img{
+    heigth:9rem;
+    width:9rem;
+    border-radius: 50%;
+    position: relative;
+    
+}
+.c2 img:hover{
+    box-shadow:0 0 16px rgba(247, 246, 246, 0.5);
+
+}
+.c3{
+    background-color: rgb(0, 0, 0);
+    width:40%;
+    padding-top:1.5rem;
+    color:white;
+    padding-left:1rem;
+}
+.c31{
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.c32 img{
+    padding-top:0.3rem;
+    height:3.2rem;
+    width:3rem;
+    position: relative;
+    padding-top:0.4rem;
+}
+.c33{
+    padding-top:1rem;
+}
+.c33 img{
+    height:16rem;
+    width:22rem; 
+    border-radius:5%;
+}
+.c33 img:hover{
+    box-shadow:0 0 18px rgba(255, 255, 255, 0.5);
+}
+.contact:hover{
+    color:aqua;
+}
